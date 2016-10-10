@@ -1,8 +1,8 @@
-@ charset "UTF-8";
+@charset "UTF-8";
 
 		body 
 		{
-			background-color: lightyellow;
+			background: lightyellow;
 			font: 100% Verdana, Times, Serif;
 		}
 		h1
@@ -17,7 +17,7 @@
 		}
 		p
 		{
-			color: gray
+			color: gray;
 			font: 100% arial;
 		}
 		#wrapper
@@ -64,3 +64,36 @@
 		#mainHeader ul li a:hover {
 			color: #c00000;
 		}
+		section#content {
+	float: left;
+	width: 600px;
+	padding: 0 10px 0 25px;
+	margin-bottom: 10px;
+	border-right: 1px solid #7f7f7f;
+}
+
+section#content p {
+	color: #666;
+	line-height: 1.6;
+	margin-bottom: 10px;
+}
+
+aside#hobbies {
+	font-size: 90%;
+	float: right;
+	width: 450px;
+	margin-bottom: 20px;
+}
+
+footer#pageFooter {
+	clear: both;
+	border-top: 2px solid #7f7f7f;
+	padding: 20px;
+}
+
+footer#pageFooter p {
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 10px;
+	color: #666;
+}
